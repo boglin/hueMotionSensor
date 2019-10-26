@@ -27,7 +27,8 @@ metadata {
         capability "Health Check"
 
 		fingerprint profileId: "0104", inClusters: "0000,0001,0003,0400,0402,0406", outClusters: "0019", manufacturer: "Philips", model: "SML001", deviceJoinName: "Hue Motion Sensor"
-	}
+		fingerprint profileId: "0104", inClusters: "0000,0001,0003,0400,0402,0406", outClusters: "0019", manufacturer: "Philips", model: "SML002", deviceJoinName: "Hue Motion Sensor"
+    }
     
     preferences {        
         section {
